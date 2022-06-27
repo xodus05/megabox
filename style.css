@@ -1,0 +1,105 @@
+/*스타일*/
+
+
+#header {
+    min-width: 1100px;
+    height: 91px;
+    background: #222;
+}
+
+/* #header .main-header {
+    position: absolute;
+    left: 0;
+    right: inherit;
+    top: 80px;
+    width: 100%;
+    z-index: 100;
+} */
+
+#header .logo-title {
+    position: absolute;
+    left: 50%;
+    top: 23px;
+    width: 140px;
+    height: 90px;
+    margin: 0 0 0 -70px;
+    padding: 0;
+}
+
+#header .util-area .left-link {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    font-size: .8667em;
+}
+
+#header .util-area .left-link a{
+    float: left;
+    margin-left: 20px;
+    vertical-align: top;
+}
+
+#header .util-area .right-link {
+    position: absolute;
+    top: 15px;
+    right: 0;
+    font-size: .8667em;
+}
+
+#header .util-area .right-link a{
+    float: right;
+    margin-right: 20px;
+    vertical-align: top;
+}
+
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #888;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/* 0628.. */
+#header .link-area a.search {
+    left: 40px;
+}
+
+#header .link-area a{
+    display: block;
+    position: absolute;
+    top: 55px;
+    width: 36px;
+    height: 36px;
+    font-size: 0;
+    line-height: 0;
+    margin-left: 13px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+#header .link-area a.link-ticket {
+    right: 40px;
+}
+/* 0628.. */
+
+body{
+    letter-spacing: 0;
+    line-height: 1.5;
+    font-size: 15px;
+    color: #444;
+    font-weight: 400;
+    font-family: '돋움';
+}
+
+body.no-scroll #header.main-header {
+    right:18px; 
+    width:auto;
+}
