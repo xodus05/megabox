@@ -9,13 +9,14 @@
 
 /* #header .main-header {
     position: absolute;
-    left: 0;
+    left: 0; 
     right: inherit;
     top: 80px;
     width: 100%;
     z-index: 100;
 } */
 
+/* 메인 로고 */
 #header .logo-title {
     position: absolute;
     left: 50%;
@@ -52,11 +53,6 @@
     vertical-align: top;
 }
 
-
-a:link {
-    text-decoration: none;
-}
-
 a:visited {
     color: #888;
     text-decoration: none;
@@ -66,28 +62,31 @@ a:hover{
     text-decoration: underline;
 }
 
-/* 0628.. */
-#header .link-area a.search {
-    left: 40px;
+a:link {
+    color: #444;
+    text-decoration: none;
 }
+/* 0628.. */
 
-#header .link-area a{
+#header .link-area{
     display: block;
     position: absolute;
-    top: 55px;
-    width: 36px;
-    height: 36px;
+    top: 42px;
+    width: 40px;
+    height: 40px;
     font-size: 0;
     line-height: 0;
     margin-left: 13px;
+    margin-right: 13px;
     background-position: center;
     background-repeat: no-repeat;
     background-color: transparent;
 }
 
-#header .link-area a.link-ticket {
-    right: 40px;
+img .link-area .img .search {
+    left: 40px;
 }
+
 /* 0628.. */
 
 body{
